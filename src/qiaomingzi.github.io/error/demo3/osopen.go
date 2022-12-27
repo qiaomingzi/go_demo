@@ -6,7 +6,9 @@ import (
 	"os/exec"
 	lib "qiaomingzi.gihub.io/error/demo2/lib"
 )
-
+/**
+ r=4 w=3 x=1
+ */
 func main() {
 	closeFd := func(fd *os.File){
 	   if fd != nil{
